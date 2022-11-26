@@ -1,0 +1,11 @@
+services:
+  web: 
+    image: openjdk:17
+    command: ./gradlew_fixed bootRun
+    #command: ./gradlew_fixed bootRun
+    #command: ./gradlew_fixed --build-cache clean assemble
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./demo:/demo
+    working_dir: /demo
