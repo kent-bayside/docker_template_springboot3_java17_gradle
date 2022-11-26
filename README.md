@@ -8,4 +8,4 @@ docker compose run
 ```
 
 ## Notes
-To prevent the 'xargs is not available' error, add the line 'eval "microdnf install findutils"' to gradlew and rename the file gradle_fixed.
+Becouse avoid the 'xargs is not available' error, added the line 'eval "microdnf install findutils"' to 'gradlew' and rename the file 'gradle_fixed'.
